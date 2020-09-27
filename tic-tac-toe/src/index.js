@@ -53,6 +53,7 @@ class Board extends React.Component {
 
     return (
       <div>
+        <h1>Tic-Tac-Toe Game</h1>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
